@@ -1,0 +1,98 @@
+.ant-layout-sider {
+    background: #1A1E23 !important;
+}
+
+.ant-menu-dark {
+    background: #1A1E23;
+}
+
+.ant-layout-sider-trigger {
+    background: #1A1E23 !important;
+}
+
+.ant-menu-sub.ant-menu-inline {
+    background: #1A1E23 !important;
+}
+
+button {
+    font-weight: 500 !important;
+}
+
+.inline-btn {
+    border: 2px solid #0071F1;
+    color: #0071F1;
+}
+
+.ant-form-item-required {
+    &::before {
+        position: absolute;
+        right: 0;
+    }
+}
+
+.editor-height {
+    .ck-content.ck-editor__editable {
+        min-height: calc(100vh - 375px);
+    }
+}
+
+.ck.ck-balloon-panel.ck-balloon-panel_visible {
+    display: none !important;
+}
+
+.upload-lang {
+    .ant-upload {
+        width: 100%;
+    }
+}
+
+.card-full {
+    margin: 0 18px 0 0;
+
+    .ant-card {
+        width: 100% !important;
+
+        .ant-avatar {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+:where(.css-dev-only-do-not-override-1r287do).ant-image .ant-image-mask:hover {
+    opacity: 0;
+}
+
+.multiple-img {
+    .ant-upload-list-item-container {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .ant-upload.ant-upload-select {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .ant-upload-list-item-error {
+        border-color: #000 !important;
+    }
+}
+
+.ant-image-mask:hover {
+    opacity: 0 !important;
+}
+
+.upload-img {
+    img {
+        width: 102px !important;
+        padding: 0;
+        margin: 0 8px;
+    }
+}
+
+.PhoneInputInput {
+    &:focus-visible {
+        outline: none !important;
+    }
+}
